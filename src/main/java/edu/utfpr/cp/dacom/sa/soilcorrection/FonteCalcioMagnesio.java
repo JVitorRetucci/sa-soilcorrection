@@ -2,8 +2,11 @@ package edu.utfpr.cp.dacom.sa.soilcorrection;
 
 import java.util.Set;
 
+import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
+import lombok.experimental.FieldDefaults;
 
+@FieldDefaults(makeFinal = true, level = AccessLevel.PRIVATE)
 @AllArgsConstructor
 public enum FonteCalcioMagnesio 
         implements IFonteNutriente {
@@ -15,8 +18,8 @@ public enum FonteCalcioMagnesio
     HIDROXIDO_CALCIO(75.7, Set.of()),
     CALCARIO_MAGNESIANO(35.0, Set.of());
 
-    private final double teorFonte;
-    private final Set<NutrienteAdicional> nutrienteAdicionais;
+    double teorFonte;
+    Set<NutrienteAdicional> nutrienteAdicionais;
 
     @Override
     public double getTeorFonte() {
