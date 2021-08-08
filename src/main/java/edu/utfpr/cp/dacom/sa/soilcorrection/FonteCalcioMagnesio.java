@@ -3,11 +3,11 @@ package edu.utfpr.cp.dacom.sa.soilcorrection;
 import java.util.Set;
 
 import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
 @FieldDefaults(makeFinal = true, level = AccessLevel.PRIVATE)
-@AllArgsConstructor
+@RequiredArgsConstructor
 public enum FonteCalcioMagnesio 
         implements IFonteNutriente {
 

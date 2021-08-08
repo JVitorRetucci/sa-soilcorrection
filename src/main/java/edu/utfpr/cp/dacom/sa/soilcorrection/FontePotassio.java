@@ -3,11 +3,11 @@ package edu.utfpr.cp.dacom.sa.soilcorrection;
 import java.util.Set;
 
 import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
 @FieldDefaults(makeFinal = true, level = AccessLevel.PRIVATE)
-@AllArgsConstructor
+@RequiredArgsConstructor
 public enum FontePotassio implements IFonteNutriente {
     CLORETO_POTASSIO(0.58, Set.of()),
     SULFATO_POTASSIO(0.52, Set.of(new NutrienteAdicional(NomeNutrienteAdicional.ENXOFRE, 0.17))),
