@@ -1,4 +1,4 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection;
+package edu.utfpr.cp.dacom.sa.soilcorrection.testeValoresIdeais;
 
 import org.junit.jupiter.api.Test;
 

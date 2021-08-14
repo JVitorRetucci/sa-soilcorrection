@@ -1,4 +1,4 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection;
+package edu.utfpr.cp.dacom.sa.soilcorrection.testesCorrecao;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
