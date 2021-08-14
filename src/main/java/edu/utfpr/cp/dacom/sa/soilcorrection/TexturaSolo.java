@@ -1,5 +1,7 @@
 package edu.utfpr.cp.dacom.sa.soilcorrection;
 
+import edu.utfpr.cp.dacom.sa.soilcorrection.nutrientes.NutrientesCTC;
+
 public enum TexturaSolo {
     
     ARGILOSO {
