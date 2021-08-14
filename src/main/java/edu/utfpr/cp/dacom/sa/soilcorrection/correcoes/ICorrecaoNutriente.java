@@ -2,8 +2,8 @@ package edu.utfpr.cp.dacom.sa.soilcorrection.correcoes;
 
 import java.util.Set;
 
-import edu.utfpr.cp.dacom.sa.soilcorrection.IFonteNutriente;
 import edu.utfpr.cp.dacom.sa.soilcorrection.NutrienteAdicional;
+import edu.utfpr.cp.dacom.sa.soilcorrection.fontes.IFonteNutriente;
 
 public interface ICorrecaoNutriente<T extends IFonteNutriente> {
     
